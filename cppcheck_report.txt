@@ -1,0 +1,1712 @@
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_short_press_count' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_first_press_time' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_press_sequences' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_press_sequence_duration' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_held_threshold' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_was_btn_held' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_held_callback_called' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_current_state' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_last_state' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_changed' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_time' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_last_change' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::mPressedCallback' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::mPressedForCallback' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::mPressedSequenceCallback' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:37:7: style:inconclusive: Technically the member function 'EasyButton::isPressed' can be const. [functionConst]
+ bool isPressed();    // Returns true if the button state was pressed at the last read.
+      ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:36:18: note: Technically the member function 'EasyButton::isPressed' can be const.
+bool EasyButton::isPressed()
+                 ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:37:7: note: Technically the member function 'EasyButton::isPressed' can be const.
+ bool isPressed();    // Returns true if the button state was pressed at the last read.
+      ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:38:7: style:inconclusive: Technically the member function 'EasyButton::isReleased' can be const. [functionConst]
+ bool isReleased();    // Returns true if the button state was released at the last read.
+      ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:41:18: note: Technically the member function 'EasyButton::isReleased' can be const.
+bool EasyButton::isReleased()
+                 ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:38:7: note: Technically the member function 'EasyButton::isReleased' can be const.
+ bool isReleased();    // Returns true if the button state was released at the last read.
+      ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:39:7: style:inconclusive: Technically the member function 'EasyButton::wasPressed' can be const. [functionConst]
+ bool wasPressed();    // Returns true if the button state at the last read was pressed.
+      ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:46:18: note: Technically the member function 'EasyButton::wasPressed' can be const.
+bool EasyButton::wasPressed()
+                 ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:39:7: note: Technically the member function 'EasyButton::wasPressed' can be const.
+ bool wasPressed();    // Returns true if the button state at the last read was pressed.
+      ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:40:7: style:inconclusive: Technically the member function 'EasyButton::wasReleased' can be const. [functionConst]
+ bool wasReleased();    // Returns true if the button state at the last read was released.
+      ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:51:18: note: Technically the member function 'EasyButton::wasReleased' can be const.
+bool EasyButton::wasReleased()
+                 ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:40:7: note: Technically the member function 'EasyButton::wasReleased' can be const.
+ bool wasReleased();    // Returns true if the button state at the last read was released.
+      ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:41:7: style:inconclusive: Technically the member function 'EasyButton::pressedFor' can be const. [functionConst]
+ bool pressedFor(uint32_t duration);  // Returns true if the button state at the last read was pressed, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:56:18: note: Technically the member function 'EasyButton::pressedFor' can be const.
+bool EasyButton::pressedFor(uint32_t duration)
+                 ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:41:7: note: Technically the member function 'EasyButton::pressedFor' can be const.
+ bool pressedFor(uint32_t duration);  // Returns true if the button state at the last read was pressed, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:42:7: style:inconclusive: Technically the member function 'EasyButton::releasedFor' can be const. [functionConst]
+ bool releasedFor(uint32_t duration); // Returns true if the button state at the last read was released, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:61:18: note: Technically the member function 'EasyButton::releasedFor' can be const.
+bool EasyButton::releasedFor(uint32_t duration)
+                 ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:42:7: note: Technically the member function 'EasyButton::releasedFor' can be const.
+ bool releasedFor(uint32_t duration); // Returns true if the button state at the last read was released, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:29:2: style: Class 'EasyButton' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_short_press_count' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_first_press_time' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_press_sequences' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_press_sequence_duration' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_held_threshold' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_was_btn_held' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_held_callback_called' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_current_state' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_last_state' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_changed' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_time' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_last_change' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::mPressedCallback' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::mPressedForCallback' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::mPressedSequenceCallback' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:37:7: style:inconclusive: Technically the member function 'EasyButton::isPressed' can be const. [functionConst]
+ bool isPressed();    // Returns true if the button state was pressed at the last read.
+      ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.cpp:36:18: note: Technically the member function 'EasyButton::isPressed' can be const.
+bool EasyButton::isPressed()
+                 ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:37:7: note: Technically the member function 'EasyButton::isPressed' can be const.
+ bool isPressed();    // Returns true if the button state was pressed at the last read.
+      ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:38:7: style:inconclusive: Technically the member function 'EasyButton::isReleased' can be const. [functionConst]
+ bool isReleased();    // Returns true if the button state was released at the last read.
+      ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.cpp:41:18: note: Technically the member function 'EasyButton::isReleased' can be const.
+bool EasyButton::isReleased()
+                 ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:38:7: note: Technically the member function 'EasyButton::isReleased' can be const.
+ bool isReleased();    // Returns true if the button state was released at the last read.
+      ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:39:7: style:inconclusive: Technically the member function 'EasyButton::wasPressed' can be const. [functionConst]
+ bool wasPressed();    // Returns true if the button state at the last read was pressed.
+      ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.cpp:46:18: note: Technically the member function 'EasyButton::wasPressed' can be const.
+bool EasyButton::wasPressed()
+                 ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:39:7: note: Technically the member function 'EasyButton::wasPressed' can be const.
+ bool wasPressed();    // Returns true if the button state at the last read was pressed.
+      ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:40:7: style:inconclusive: Technically the member function 'EasyButton::wasReleased' can be const. [functionConst]
+ bool wasReleased();    // Returns true if the button state at the last read was released.
+      ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.cpp:51:18: note: Technically the member function 'EasyButton::wasReleased' can be const.
+bool EasyButton::wasReleased()
+                 ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:40:7: note: Technically the member function 'EasyButton::wasReleased' can be const.
+ bool wasReleased();    // Returns true if the button state at the last read was released.
+      ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:41:7: style:inconclusive: Technically the member function 'EasyButton::pressedFor' can be const. [functionConst]
+ bool pressedFor(uint32_t duration);  // Returns true if the button state at the last read was pressed, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.cpp:56:18: note: Technically the member function 'EasyButton::pressedFor' can be const.
+bool EasyButton::pressedFor(uint32_t duration)
+                 ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:41:7: note: Technically the member function 'EasyButton::pressedFor' can be const.
+ bool pressedFor(uint32_t duration);  // Returns true if the button state at the last read was pressed, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:42:7: style:inconclusive: Technically the member function 'EasyButton::releasedFor' can be const. [functionConst]
+ bool releasedFor(uint32_t duration); // Returns true if the button state at the last read was released, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.cpp:61:18: note: Technically the member function 'EasyButton::releasedFor' can be const.
+bool EasyButton::releasedFor(uint32_t duration)
+                 ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:42:7: note: Technically the member function 'EasyButton::releasedFor' can be const.
+ bool releasedFor(uint32_t duration); // Returns true if the button state at the last read was released, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:29:2: style: Class 'EasyButton' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_short_press_count' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_first_press_time' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_press_sequences' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_press_sequence_duration' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_held_threshold' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_was_btn_held' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_held_callback_called' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_current_state' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_last_state' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_changed' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_time' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::_last_change' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::mPressedCallback' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::mPressedForCallback' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: warning: Member variable 'EasyButton::mPressedSequenceCallback' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:37:7: style:inconclusive: Technically the member function 'EasyButton::isPressed' can be const. [functionConst]
+ bool isPressed();    // Returns true if the button state was pressed at the last read.
+      ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.cpp:36:18: note: Technically the member function 'EasyButton::isPressed' can be const.
+bool EasyButton::isPressed()
+                 ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:37:7: note: Technically the member function 'EasyButton::isPressed' can be const.
+ bool isPressed();    // Returns true if the button state was pressed at the last read.
+      ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:38:7: style:inconclusive: Technically the member function 'EasyButton::isReleased' can be const. [functionConst]
+ bool isReleased();    // Returns true if the button state was released at the last read.
+      ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.cpp:41:18: note: Technically the member function 'EasyButton::isReleased' can be const.
+bool EasyButton::isReleased()
+                 ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:38:7: note: Technically the member function 'EasyButton::isReleased' can be const.
+ bool isReleased();    // Returns true if the button state was released at the last read.
+      ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:39:7: style:inconclusive: Technically the member function 'EasyButton::wasPressed' can be const. [functionConst]
+ bool wasPressed();    // Returns true if the button state at the last read was pressed.
+      ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.cpp:46:18: note: Technically the member function 'EasyButton::wasPressed' can be const.
+bool EasyButton::wasPressed()
+                 ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:39:7: note: Technically the member function 'EasyButton::wasPressed' can be const.
+ bool wasPressed();    // Returns true if the button state at the last read was pressed.
+      ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:40:7: style:inconclusive: Technically the member function 'EasyButton::wasReleased' can be const. [functionConst]
+ bool wasReleased();    // Returns true if the button state at the last read was released.
+      ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.cpp:51:18: note: Technically the member function 'EasyButton::wasReleased' can be const.
+bool EasyButton::wasReleased()
+                 ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:40:7: note: Technically the member function 'EasyButton::wasReleased' can be const.
+ bool wasReleased();    // Returns true if the button state at the last read was released.
+      ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:41:7: style:inconclusive: Technically the member function 'EasyButton::pressedFor' can be const. [functionConst]
+ bool pressedFor(uint32_t duration);  // Returns true if the button state at the last read was pressed, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.cpp:56:18: note: Technically the member function 'EasyButton::pressedFor' can be const.
+bool EasyButton::pressedFor(uint32_t duration)
+                 ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:41:7: note: Technically the member function 'EasyButton::pressedFor' can be const.
+ bool pressedFor(uint32_t duration);  // Returns true if the button state at the last read was pressed, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:42:7: style:inconclusive: Technically the member function 'EasyButton::releasedFor' can be const. [functionConst]
+ bool releasedFor(uint32_t duration); // Returns true if the button state at the last read was released, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.cpp:61:18: note: Technically the member function 'EasyButton::releasedFor' can be const.
+bool EasyButton::releasedFor(uint32_t duration)
+                 ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:42:7: note: Technically the member function 'EasyButton::releasedFor' can be const.
+ bool releasedFor(uint32_t duration); // Returns true if the button state at the last read was released, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:29:2: style: Class 'EasyButton' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/linux/ex02_lnx_btn_txt.c:100:12: style: Variable 'pElemRef' is assigned a value that is never used. [unreadVariable]
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui,E_ELEM_BTN_QUIT,E_PG_MAIN,
+           ^
+examples/linux/ex03_lnx_btn_img.c:92:3: warning:inconclusive: The buffer 'm_strImgQuit' may not be null-terminated after the call to strncpy(). [terminateStrncpy]
+  strncpy(m_strImgQuit,strPath,MAX_PATH);
+  ^
+examples/linux/ex03_lnx_btn_img.c:94:3: warning:inconclusive: The buffer 'm_strImgQuitSel' may not be null-terminated after the call to strncpy(). [terminateStrncpy]
+  strncpy(m_strImgQuitSel,strPath,MAX_PATH);
+  ^
+examples/linux/ex03_lnx_btn_img.c:96:12: style: Variable 'pElemRef' is assigned a value that is never used. [unreadVariable]
+  pElemRef = gslc_ElemCreateBtnImg(&m_gui,E_ELEM_BTN_QUIT,E_PG_MAIN,(gslc_tsRect){258,70,32,32},
+           ^
+examples/linux/ex04_lnx_ctrls.c:268:5: warning: %u in format string (no. 1) requires 'unsigned int' but the argument type is 'signed int'. [invalidPrintfArgType_uint]
+    snprintf(acTxt,MAX_STR,"Slider: %u",nPos);
+    ^
+examples/linux/ex04_lnx_ctrls.c:167:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,60,50,10},
+           ^
+examples/linux/ex04_lnx_ctrls.c:163:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui,E_ELEM_BTN_QUIT,E_PG_MAIN,
+           ^
+examples/linux/ex04_lnx_ctrls.c:167:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,60,50,10},
+           ^
+examples/linux/ex04_lnx_ctrls.c:169:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,E_ELEM_TXT_COUNT,E_PG_MAIN,(gslc_tsRect){80,60,50,10},
+           ^
+examples/linux/ex04_lnx_ctrls.c:167:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,60,50,10},
+           ^
+examples/linux/ex04_lnx_ctrls.c:169:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui,E_ELEM_TXT_COUNT,E_PG_MAIN,(gslc_tsRect){80,60,50,10},
+           ^
+examples/linux/ex04_lnx_ctrls.c:177:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXProgressCreate(&m_gui,E_ELEM_PROGRESS,E_PG_MAIN,&m_sXProgress,
+           ^
+examples/linux/ex04_lnx_ctrls.c:175:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,80,50,10},
+           ^
+examples/linux/ex04_lnx_ctrls.c:177:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXProgressCreate(&m_gui,E_ELEM_PROGRESS,E_PG_MAIN,&m_sXProgress,
+           ^
+examples/linux/ex04_lnx_ctrls.c:191:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_CHECK1,E_PG_MAIN,&m_asXCheck[0],
+           ^
+examples/linux/ex04_lnx_ctrls.c:189:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,100,20,20},
+           ^
+examples/linux/ex04_lnx_ctrls.c:191:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_CHECK1,E_PG_MAIN,&m_asXCheck[0],
+           ^
+examples/linux/ex04_lnx_ctrls.c:198:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_RADIO1,E_PG_MAIN,&m_asXCheck[1],
+           ^
+examples/linux/ex04_lnx_ctrls.c:196:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,135,20,20},
+           ^
+examples/linux/ex04_lnx_ctrls.c:198:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_RADIO1,E_PG_MAIN,&m_asXCheck[1],
+           ^
+examples/linux/ex04_lnx_ctrls.c:206:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_RADIO2,E_PG_MAIN,&m_asXCheck[2],
+           ^
+examples/linux/ex04_lnx_ctrls.c:204:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,160,20,20},
+           ^
+examples/linux/ex04_lnx_ctrls.c:206:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_RADIO2,E_PG_MAIN,&m_asXCheck[2],
+           ^
+examples/linux/ex05_lnx_pages.c:118:3: warning:inconclusive: The buffer 'm_strImgBkgnd' may not be null-terminated after the call to strncpy(). [terminateStrncpy]
+  strncpy(m_strImgBkgnd,strPath,MAX_PATH);
+  ^
+examples/linux/ex05_lnx_pages.c:141:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui,E_ELEM_BTN_EXTRA,E_PG_MAIN,
+           ^
+examples/linux/ex05_lnx_pages.c:137:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui,E_ELEM_BTN_QUIT,E_PG_MAIN,
+           ^
+examples/linux/ex05_lnx_pages.c:141:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui,E_ELEM_BTN_EXTRA,E_PG_MAIN,
+           ^
+examples/linux/ex05_lnx_pages.c:145:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){40,60,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:141:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui,E_ELEM_BTN_EXTRA,E_PG_MAIN,
+           ^
+examples/linux/ex05_lnx_pages.c:145:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){40,60,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:147:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,E_ELEM_TXT_COUNT,E_PG_MAIN,(gslc_tsRect){100,60,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:145:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){40,60,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:147:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui,E_ELEM_TXT_COUNT,E_PG_MAIN,(gslc_tsRect){100,60,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:154:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXProgressCreate(&m_gui,E_ELEM_PROGRESS,E_PG_MAIN,&m_sXProgress,(gslc_tsRect){100,80,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:152:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){40,80,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:154:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXProgressCreate(&m_gui,E_ELEM_PROGRESS,E_PG_MAIN,&m_sXProgress,(gslc_tsRect){100,80,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:158:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_CHECK1,E_PG_MAIN,&m_asXCheck[0],
+           ^
+examples/linux/ex05_lnx_pages.c:154:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemXProgressCreate(&m_gui,E_ELEM_PROGRESS,E_PG_MAIN,&m_sXProgress,(gslc_tsRect){100,80,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:158:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_CHECK1,E_PG_MAIN,&m_asXCheck[0],
+           ^
+examples/linux/ex05_lnx_pages.c:165:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateBox(&m_gui,GSLC_ID_AUTO,E_PG_EXTRA,(gslc_tsRect){40,40,240,160});
+           ^
+examples/linux/ex05_lnx_pages.c:158:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_CHECK1,E_PG_MAIN,&m_asXCheck[0],
+           ^
+examples/linux/ex05_lnx_pages.c:165:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateBox(&m_gui,GSLC_ID_AUTO,E_PG_EXTRA,(gslc_tsRect){40,40,240,160});
+           ^
+examples/linux/ex05_lnx_pages.c:176:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_CHECK2,E_PG_EXTRA,&m_asXCheck[1],
+           ^
+examples/linux/ex05_lnx_pages.c:169:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui,E_ELEM_BTN_BACK,E_PG_EXTRA,
+           ^
+examples/linux/ex05_lnx_pages.c:176:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_CHECK2,E_PG_EXTRA,&m_asXCheck[1],
+           ^
+examples/linux/ex05_lnx_pages.c:178:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_EXTRA,(gslc_tsRect){100,nPosY,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:176:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_CHECK2,E_PG_EXTRA,&m_asXCheck[1],
+           ^
+examples/linux/ex05_lnx_pages.c:178:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_EXTRA,(gslc_tsRect){100,nPosY,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:182:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_CHECK3,E_PG_EXTRA,&m_asXCheck[2],
+           ^
+examples/linux/ex05_lnx_pages.c:178:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_EXTRA,(gslc_tsRect){100,nPosY,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:182:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_CHECK3,E_PG_EXTRA,&m_asXCheck[2],
+           ^
+examples/linux/ex05_lnx_pages.c:184:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_EXTRA,(gslc_tsRect){100,nPosY,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:182:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_CHECK3,E_PG_EXTRA,&m_asXCheck[2],
+           ^
+examples/linux/ex05_lnx_pages.c:184:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_EXTRA,(gslc_tsRect){100,nPosY,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:188:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_EXTRA,(gslc_tsRect){100,nPosY,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:184:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_EXTRA,(gslc_tsRect){100,nPosY,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:188:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_EXTRA,(gslc_tsRect){100,nPosY,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:188:12: style: Variable 'pElemRef' is assigned a value that is never used. [unreadVariable]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_EXTRA,(gslc_tsRect){100,nPosY,50,10},
+           ^
+examples/linux/ex05_lnx_pages.c:190:9: style: Variable 'nPosY' is assigned a value that is never used. [unreadVariable]
+  nPosY += nSpaceY;
+        ^
+examples/linux/ex06_lnx_callback.c:190:3: warning:inconclusive: The buffer 'm_strImgLogo' may not be null-terminated after the call to strncpy(). [terminateStrncpy]
+  strncpy(m_strImgLogo,strPath,MAX_PATH);
+  ^
+examples/linux/ex06_lnx_callback.c:197:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateBox(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){10,50,300,150});
+           ^
+examples/linux/ex06_lnx_callback.c:192:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateImg(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){160-100,5,200,40},
+           ^
+examples/linux/ex06_lnx_callback.c:197:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateBox(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){10,50,300,150});
+           ^
+examples/linux/ex06_lnx_callback.c:205:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,60,50,10},
+           ^
+examples/linux/ex06_lnx_callback.c:201:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui,E_ELEM_BTN_QUIT,E_PG_MAIN,
+           ^
+examples/linux/ex06_lnx_callback.c:205:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,60,50,10},
+           ^
+examples/linux/ex06_lnx_callback.c:207:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,E_ELEM_TXT_COUNT,E_PG_MAIN,(gslc_tsRect){80,60,50,10},
+           ^
+examples/linux/ex06_lnx_callback.c:205:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,60,50,10},
+           ^
+examples/linux/ex06_lnx_callback.c:207:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui,E_ELEM_TXT_COUNT,E_PG_MAIN,(gslc_tsRect){80,60,50,10},
+           ^
+examples/linux/ex06_lnx_callback.c:214:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXProgressCreate(&m_gui,E_ELEM_PROGRESS,E_PG_MAIN,&m_sXProgress,(gslc_tsRect){80,80,50,10},
+           ^
+examples/linux/ex06_lnx_callback.c:212:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,80,50,10},
+           ^
+examples/linux/ex06_lnx_callback.c:214:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXProgressCreate(&m_gui,E_ELEM_PROGRESS,E_PG_MAIN,&m_sXProgress,(gslc_tsRect){80,80,50,10},
+           ^
+examples/linux/ex06_lnx_callback.c:219:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){40,100,50,10},
+           ^
+examples/linux/ex06_lnx_callback.c:214:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemXProgressCreate(&m_gui,E_ELEM_PROGRESS,E_PG_MAIN,&m_sXProgress,(gslc_tsRect){80,80,50,10},
+           ^
+examples/linux/ex06_lnx_callback.c:219:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){40,100,50,10},
+           ^
+examples/linux/ex06_lnx_callback.c:247:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){110,170,50,10},
+           ^
+examples/linux/ex06_lnx_callback.c:244:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_CHECK1,E_PG_MAIN,&m_asXCheck[0],
+           ^
+examples/linux/ex06_lnx_callback.c:247:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){110,170,50,10},
+           ^
+examples/linux/ex07_lnx_slider.c:234:10: style: Variable 'nCtrlY' is assigned a value that is never used. [unreadVariable]
+  nCtrlY += nCtrlGap;
+         ^
+examples/linux/ex08_lnx_tuner.c:95:3: warning:inconclusive: The buffer 'm_strImgGradBack' may not be null-terminated after the call to strncpy(). [terminateStrncpy]
+  strncpy(m_strImgGradBack,strBasePath,MAX_PATH);
+  ^
+examples/linux/ex08_lnx_tuner.c:100:3: warning:inconclusive: The buffer 'm_strImgGradBarTop' may not be null-terminated after the call to strncpy(). [terminateStrncpy]
+  strncpy(m_strImgGradBarTop,strBasePath,MAX_PATH);
+  ^
+examples/linux/ex08_lnx_tuner.c:105:3: warning:inconclusive: The buffer 'm_strImgGradBarBot' may not be null-terminated after the call to strncpy(). [terminateStrncpy]
+  strncpy(m_strImgGradBarBot,strBasePath,MAX_PATH);
+  ^
+examples/linux/ex08_lnx_tuner.c:107:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateImg(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){0,240-28,320,28},
+           ^
+examples/linux/ex08_lnx_tuner.c:102:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateImg(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){0,0,320,28},
+           ^
+examples/linux/ex08_lnx_tuner.c:107:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateImg(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){0,240-28,320,28},
+           ^
+examples/linux/ex08_lnx_tuner.c:111:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateBox(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){0,28,320,20});
+           ^
+examples/linux/ex08_lnx_tuner.c:107:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateImg(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){0,240-28,320,28},
+           ^
+examples/linux/ex08_lnx_tuner.c:111:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateBox(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){0,28,320,20});
+           ^
+examples/linux/ex08_lnx_tuner.c:172:10: style: Redundant initialization for 'nCtrlX'. The initialized value is overwritten before it is read. [redundantInitialization]
+  nCtrlX = nCtrlStartX;
+         ^
+examples/linux/ex08_lnx_tuner.c:169:14: note: nCtrlX is initialized
+  int nCtrlX = nCtrlStartX;
+             ^
+examples/linux/ex08_lnx_tuner.c:172:10: note: nCtrlX is overwritten
+  nCtrlX = nCtrlStartX;
+         ^
+examples/linux/ex08_lnx_tuner.c:173:10: style: Redundant initialization for 'nCtrlY'. The initialized value is overwritten before it is read. [redundantInitialization]
+  nCtrlY = nCtrlStartY;
+         ^
+examples/linux/ex08_lnx_tuner.c:170:14: note: nCtrlY is initialized
+  int nCtrlY = nCtrlStartY;
+             ^
+examples/linux/ex08_lnx_tuner.c:173:10: note: nCtrlY is overwritten
+  nCtrlY = nCtrlStartY;
+         ^
+examples/linux/ex08_lnx_tuner.c:195:10: style: Variable 'nCtrlX' is reassigned a value before the old one has been used. [redundantAssignment]
+  nCtrlX = nCtrlStartX;
+         ^
+examples/linux/ex08_lnx_tuner.c:193:10: note: nCtrlX is assigned
+  nCtrlX += (nCtrlW + nCtrlGapW);
+         ^
+examples/linux/ex08_lnx_tuner.c:195:10: note: nCtrlX is overwritten
+  nCtrlX = nCtrlStartX;
+         ^
+examples/linux/ex08_lnx_tuner.c:229:10: style: Variable 'nCtrlX' is reassigned a value before the old one has been used. [redundantAssignment]
+  nCtrlX = nCtrlStartX;
+         ^
+examples/linux/ex08_lnx_tuner.c:221:10: note: nCtrlX is assigned
+  nCtrlX += (nCtrlW + nCtrlGapW);
+         ^
+examples/linux/ex08_lnx_tuner.c:229:10: note: nCtrlX is overwritten
+  nCtrlX = nCtrlStartX;
+         ^
+examples/linux/ex08_lnx_tuner.c:262:10: style: Variable 'nCtrlY' is assigned a value that is never used. [unreadVariable]
+  nCtrlY += (nCtrlH + nCtrlGapH);
+         ^
+examples/linux/ex09_lnx_radial.c:112:7: warning: %u in format string (no. 1) requires 'unsigned int' but the argument type is 'signed short'. [invalidPrintfArgType_uint]
+      snprintf(acTxt,8,"%u",nVal);
+      ^
+examples/linux/ex09_lnx_radial.c:168:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui,E_ELEM_BTN_QUIT,E_PG_MAIN,
+           ^
+examples/linux/ex09_lnx_radial.c:165:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,E_ELEM_TXT_COUNT,E_PG_MAIN,(gslc_tsRect){180,60,40,20},
+           ^
+examples/linux/ex09_lnx_radial.c:168:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui,E_ELEM_BTN_QUIT,E_PG_MAIN,
+           ^
+examples/linux/ex10_lnx_textbox.c:119:7: warning: %u in format string (no. 1) requires 'unsigned int' but the argument type is 'signed short'. [invalidPrintfArgType_uint]
+      snprintf(acTxt,20,"%u",nVal);
+      ^
+examples/linux/ex10_lnx_textbox.c:125:7: warning: %u in format string (no. 1) requires 'unsigned int' but the argument type is 'signed short'. [invalidPrintfArgType_uint]
+      snprintf(acTxt,20,"Slider=%3u\n",nVal);
+      ^
+examples/linux/ex10_lnx_textbox.c:175:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateBox(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){18,83,203,124});
+           ^
+examples/linux/ex10_lnx_textbox.c:170:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,E_ELEM_TXT_COUNT,E_PG_MAIN,(gslc_tsRect){180,60,40,20},
+           ^
+examples/linux/ex10_lnx_textbox.c:175:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateBox(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){18,83,203,124});
+           ^
+examples/linux/ex11_lnx_graph.c:115:7: warning: %u in format string (no. 1) requires 'unsigned int' but the argument type is 'signed short'. [invalidPrintfArgType_uint]
+      snprintf(acTxt,20,"%u",nVal);
+      ^
+examples/linux/ex11_lnx_graph.c:174:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateBox(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){18,83,180+3,120+20+3});
+           ^
+examples/linux/ex11_lnx_graph.c:165:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,E_ELEM_TXT_COUNT,E_PG_MAIN,(gslc_tsRect){180,60,40,20},
+           ^
+examples/linux/ex11_lnx_graph.c:174:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateBox(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){18,83,180+3,120+20+3});
+           ^
+examples/linux/ex15_lnx_foreign.c:113:12: style: Variable 'pElemRef' is assigned a value that is never used. [unreadVariable]
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui,E_ELEM_BTN_QUIT,E_PG_MAIN,
+           ^
+examples/linux/ex18_lnx_compound.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+examples/linux/ex22_lnx_input_key.c:234:5: warning: %u in format string (no. 1) requires 'unsigned int' but the argument type is 'signed int'. [invalidPrintfArgType_uint]
+    snprintf(acTxt,MAX_STR,"Slider: %u",nPos);
+    ^
+examples/linux/ex22_lnx_input_key.c:120:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,60,50,10},
+           ^
+examples/linux/ex22_lnx_input_key.c:116:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui,E_ELEM_BTN_QUIT,E_PG_MAIN,
+           ^
+examples/linux/ex22_lnx_input_key.c:120:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,60,50,10},
+           ^
+examples/linux/ex22_lnx_input_key.c:122:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,E_ELEM_TXT_COUNT,E_PG_MAIN,(gslc_tsRect){80,60,50,10},
+           ^
+examples/linux/ex22_lnx_input_key.c:120:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,60,50,10},
+           ^
+examples/linux/ex22_lnx_input_key.c:122:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui,E_ELEM_TXT_COUNT,E_PG_MAIN,(gslc_tsRect){80,60,50,10},
+           ^
+examples/linux/ex22_lnx_input_key.c:129:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXProgressCreate(&m_gui,E_ELEM_PROGRESS,E_PG_MAIN,&m_sXProgress,
+           ^
+examples/linux/ex22_lnx_input_key.c:127:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,80,50,10},
+           ^
+examples/linux/ex22_lnx_input_key.c:129:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXProgressCreate(&m_gui,E_ELEM_PROGRESS,E_PG_MAIN,&m_sXProgress,
+           ^
+examples/linux/ex22_lnx_input_key.c:134:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXProgressCreate(&m_gui,E_ELEM_PROGRESS1,E_PG_MAIN,&m_sXProgress1,
+           ^
+examples/linux/ex22_lnx_input_key.c:129:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemXProgressCreate(&m_gui,E_ELEM_PROGRESS,E_PG_MAIN,&m_sXProgress,
+           ^
+examples/linux/ex22_lnx_input_key.c:134:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXProgressCreate(&m_gui,E_ELEM_PROGRESS1,E_PG_MAIN,&m_sXProgress1,
+           ^
+examples/linux/ex22_lnx_input_key.c:141:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_CHECK1,E_PG_MAIN,&m_asXCheck[0],
+           ^
+examples/linux/ex22_lnx_input_key.c:139:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,100,20,20},
+           ^
+examples/linux/ex22_lnx_input_key.c:141:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_CHECK1,E_PG_MAIN,&m_asXCheck[0],
+           ^
+examples/linux/ex22_lnx_input_key.c:145:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,135,20,20},
+           ^
+examples/linux/ex22_lnx_input_key.c:141:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_CHECK1,E_PG_MAIN,&m_asXCheck[0],
+           ^
+examples/linux/ex22_lnx_input_key.c:145:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,135,20,20},
+           ^
+examples/linux/ex22_lnx_input_key.c:147:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_RADIO1,E_PG_MAIN,&m_asXCheck[1],
+           ^
+examples/linux/ex22_lnx_input_key.c:145:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,135,20,20},
+           ^
+examples/linux/ex22_lnx_input_key.c:147:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_RADIO1,E_PG_MAIN,&m_asXCheck[1],
+           ^
+examples/linux/ex22_lnx_input_key.c:154:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_RADIO2,E_PG_MAIN,&m_asXCheck[2],
+           ^
+examples/linux/ex22_lnx_input_key.c:152:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui,GSLC_ID_AUTO,E_PG_MAIN,(gslc_tsRect){20,160,20,20},
+           ^
+examples/linux/ex22_lnx_input_key.c:154:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui,E_ELEM_RADIO2,E_PG_MAIN,&m_asXCheck[2],
+           ^
+examples/linux/ex22_lnx_input_key.c:163:12: style: Variable 'pElemRef' is assigned a value that is never used. [unreadVariable]
+  pElemRef = gslc_ElemCreateTxt(&m_gui,E_ELEM_TXT_SLIDER,E_PG_MAIN,(gslc_tsRect){160,160,80,20},
+           ^
+examples/linux/ex24_lnx_tabs.c:194:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui, E_ELEM_TXT_COUNT, E_PG_BASE, (gslc_tsRect) { 170, 10, 50, 20 },
+           ^
+examples/linux/ex24_lnx_tabs.c:191:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui, GSLC_ID_AUTO, E_PG_BASE, (gslc_tsRect) { 110, 10, 50, 20 },
+           ^
+examples/linux/ex24_lnx_tabs.c:194:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui, E_ELEM_TXT_COUNT, E_PG_BASE, (gslc_tsRect) { 170, 10, 50, 20 },
+           ^
+examples/linux/ex24_lnx_tabs.c:217:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXProgressCreate(&m_gui, E_ELEM_PROGRESS, E_PG_MAIN, &m_sXProgress, (gslc_tsRect) { 100, 120, 50, 10 },
+           ^
+examples/linux/ex24_lnx_tabs.c:215:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui, GSLC_ID_AUTO, E_PG_MAIN, (gslc_tsRect) { 40, 120, 50, 10 },
+           ^
+examples/linux/ex24_lnx_tabs.c:217:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXProgressCreate(&m_gui, E_ELEM_PROGRESS, E_PG_MAIN, &m_sXProgress, (gslc_tsRect) { 100, 120, 50, 10 },
+           ^
+examples/linux/ex24_lnx_tabs.c:230:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui, E_ELEM_BTN_ALERT, E_PG_CONFIG,
+           ^
+examples/linux/ex24_lnx_tabs.c:223:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui, E_ELEM_CHECK1, E_PG_MAIN, &m_asXCheck[0],
+           ^
+examples/linux/ex24_lnx_tabs.c:230:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui, E_ELEM_BTN_ALERT, E_PG_CONFIG,
+           ^
+examples/linux/ex24_lnx_tabs.c:240:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui, GSLC_ID_AUTO, E_PG_CONFIG, (gslc_tsRect) { 100, nPosY, 50, 10 },
+           ^
+examples/linux/ex24_lnx_tabs.c:238:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui, E_ELEM_CHECK2, E_PG_CONFIG, &m_asXCheck[1],
+           ^
+examples/linux/ex24_lnx_tabs.c:240:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui, GSLC_ID_AUTO, E_PG_CONFIG, (gslc_tsRect) { 100, nPosY, 50, 10 },
+           ^
+examples/linux/ex24_lnx_tabs.c:244:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui, E_ELEM_CHECK3, E_PG_CONFIG, &m_asXCheck[2],
+           ^
+examples/linux/ex24_lnx_tabs.c:240:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui, GSLC_ID_AUTO, E_PG_CONFIG, (gslc_tsRect) { 100, nPosY, 50, 10 },
+           ^
+examples/linux/ex24_lnx_tabs.c:244:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui, E_ELEM_CHECK3, E_PG_CONFIG, &m_asXCheck[2],
+           ^
+examples/linux/ex24_lnx_tabs.c:246:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui, GSLC_ID_AUTO, E_PG_CONFIG, (gslc_tsRect) { 100, nPosY, 50, 10 },
+           ^
+examples/linux/ex24_lnx_tabs.c:244:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemXCheckboxCreate(&m_gui, E_ELEM_CHECK3, E_PG_CONFIG, &m_asXCheck[2],
+           ^
+examples/linux/ex24_lnx_tabs.c:246:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui, GSLC_ID_AUTO, E_PG_CONFIG, (gslc_tsRect) { 100, nPosY, 50, 10 },
+           ^
+examples/linux/ex24_lnx_tabs.c:250:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui, GSLC_ID_AUTO, E_PG_CONFIG, (gslc_tsRect) { 100, nPosY, 50, 10 },
+           ^
+examples/linux/ex24_lnx_tabs.c:246:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui, GSLC_ID_AUTO, E_PG_CONFIG, (gslc_tsRect) { 100, nPosY, 50, 10 },
+           ^
+examples/linux/ex24_lnx_tabs.c:250:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui, GSLC_ID_AUTO, E_PG_CONFIG, (gslc_tsRect) { 100, nPosY, 50, 10 },
+           ^
+examples/linux/ex24_lnx_tabs.c:258:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateBox(&m_gui, GSLC_ID_AUTO, E_PG_ALERT, (gslc_tsRect) { 160 - 90, 120 - 30, 2 * 90, 90 });
+           ^
+examples/linux/ex24_lnx_tabs.c:250:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui, GSLC_ID_AUTO, E_PG_CONFIG, (gslc_tsRect) { 100, nPosY, 50, 10 },
+           ^
+examples/linux/ex24_lnx_tabs.c:258:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateBox(&m_gui, GSLC_ID_AUTO, E_PG_ALERT, (gslc_tsRect) { 160 - 90, 120 - 30, 2 * 90, 90 });
+           ^
+examples/linux/ex24_lnx_tabs.c:252:9: style: Variable 'nPosY' is assigned a value that is never used. [unreadVariable]
+  nPosY += nSpaceY;
+        ^
+examples/linux/ex27_lnx_alpha.c:208:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemCreateTxt(&m_gui, E_TXT_VAL1, E_PG_MAIN, (gslc_tsRect) { 90, 65, 62+10, 17 },
+           ^
+examples/linux/ex27_lnx_alpha.c:203:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateTxt(&m_gui, GSLC_ID_AUTO, E_PG_MAIN, (gslc_tsRect) { 20, 65, 62, 17 },
+           ^
+examples/linux/ex27_lnx_alpha.c:208:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemCreateTxt(&m_gui, E_TXT_VAL1, E_PG_MAIN, (gslc_tsRect) { 90, 65, 62+10, 17 },
+           ^
+examples/linux/ex27_lnx_alpha.c:219:12: style: Variable 'pElemRef' is assigned a value that is never used. [unreadVariable]
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui,E_BTN_QUIT,E_PG_MAIN,
+           ^
+examples/linux/ex31_lnx_listbox.c:176:5: warning:inconclusive: The buffer 'acTxt' may not be null-terminated after the call to strncpy(). [terminateStrncpy]
+    strncpy(acTxt, m_astrCountryCodes[nSelId], 5);
+    ^
+examples/linux/ex42_lnx_ring.c:130:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXRingGaugeCreate(&m_gui, E_ELEM_XRING, E_PG_MAIN, &m_sXRingGauge,
+           ^
+examples/linux/ex42_lnx_ring.c:125:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui, E_ELEM_BTN_QUIT, E_PG_MAIN,
+           ^
+examples/linux/ex42_lnx_ring.c:130:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXRingGaugeCreate(&m_gui, E_ELEM_XRING, E_PG_MAIN, &m_sXRingGauge,
+           ^
+examples/linux/ex43_lnx_glowball.c:152:12: style: Variable 'pElemRef' is reassigned a value before the old one has been used. [redundantAssignment]
+  pElemRef = gslc_ElemXGlowballCreate(&m_gui, E_ELEM_XGLOW, E_PG_MAIN, &m_sXGlowball,
+           ^
+examples/linux/ex43_lnx_glowball.c:148:12: note: pElemRef is assigned
+  pElemRef = gslc_ElemCreateBtnTxt(&m_gui, E_ELEM_BTN_QUIT, E_PG_MAIN,
+           ^
+examples/linux/ex43_lnx_glowball.c:152:12: note: pElemRef is overwritten
+  pElemRef = gslc_ElemXGlowballCreate(&m_gui, E_ELEM_XGLOW, E_PG_MAIN, &m_sXGlowball,
+           ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: warning: Member variable 'EasyButton::_short_press_count' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: warning: Member variable 'EasyButton::_first_press_time' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: warning: Member variable 'EasyButton::_press_sequences' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: warning: Member variable 'EasyButton::_press_sequence_duration' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: warning: Member variable 'EasyButton::_held_threshold' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: warning: Member variable 'EasyButton::_was_btn_held' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: warning: Member variable 'EasyButton::_held_callback_called' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: warning: Member variable 'EasyButton::_current_state' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: warning: Member variable 'EasyButton::_last_state' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: warning: Member variable 'EasyButton::_changed' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: warning: Member variable 'EasyButton::_time' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: warning: Member variable 'EasyButton::_last_change' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: warning: Member variable 'EasyButton::mPressedCallback' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: warning: Member variable 'EasyButton::mPressedForCallback' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: warning: Member variable 'EasyButton::mPressedSequenceCallback' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:37:7: style:inconclusive: Technically the member function 'EasyButton::isPressed' can be const. [functionConst]
+ bool isPressed();    // Returns true if the button state was pressed at the last read.
+      ^
+examples/wio/ex04_wio_ctrls/EasyButton.cpp:36:18: note: Technically the member function 'EasyButton::isPressed' can be const.
+bool EasyButton::isPressed()
+                 ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:37:7: note: Technically the member function 'EasyButton::isPressed' can be const.
+ bool isPressed();    // Returns true if the button state was pressed at the last read.
+      ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:38:7: style:inconclusive: Technically the member function 'EasyButton::isReleased' can be const. [functionConst]
+ bool isReleased();    // Returns true if the button state was released at the last read.
+      ^
+examples/wio/ex04_wio_ctrls/EasyButton.cpp:41:18: note: Technically the member function 'EasyButton::isReleased' can be const.
+bool EasyButton::isReleased()
+                 ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:38:7: note: Technically the member function 'EasyButton::isReleased' can be const.
+ bool isReleased();    // Returns true if the button state was released at the last read.
+      ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:39:7: style:inconclusive: Technically the member function 'EasyButton::wasPressed' can be const. [functionConst]
+ bool wasPressed();    // Returns true if the button state at the last read was pressed.
+      ^
+examples/wio/ex04_wio_ctrls/EasyButton.cpp:46:18: note: Technically the member function 'EasyButton::wasPressed' can be const.
+bool EasyButton::wasPressed()
+                 ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:39:7: note: Technically the member function 'EasyButton::wasPressed' can be const.
+ bool wasPressed();    // Returns true if the button state at the last read was pressed.
+      ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:40:7: style:inconclusive: Technically the member function 'EasyButton::wasReleased' can be const. [functionConst]
+ bool wasReleased();    // Returns true if the button state at the last read was released.
+      ^
+examples/wio/ex04_wio_ctrls/EasyButton.cpp:51:18: note: Technically the member function 'EasyButton::wasReleased' can be const.
+bool EasyButton::wasReleased()
+                 ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:40:7: note: Technically the member function 'EasyButton::wasReleased' can be const.
+ bool wasReleased();    // Returns true if the button state at the last read was released.
+      ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:41:7: style:inconclusive: Technically the member function 'EasyButton::pressedFor' can be const. [functionConst]
+ bool pressedFor(uint32_t duration);  // Returns true if the button state at the last read was pressed, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/wio/ex04_wio_ctrls/EasyButton.cpp:56:18: note: Technically the member function 'EasyButton::pressedFor' can be const.
+bool EasyButton::pressedFor(uint32_t duration)
+                 ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:41:7: note: Technically the member function 'EasyButton::pressedFor' can be const.
+ bool pressedFor(uint32_t duration);  // Returns true if the button state at the last read was pressed, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:42:7: style:inconclusive: Technically the member function 'EasyButton::releasedFor' can be const. [functionConst]
+ bool releasedFor(uint32_t duration); // Returns true if the button state at the last read was released, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/wio/ex04_wio_ctrls/EasyButton.cpp:61:18: note: Technically the member function 'EasyButton::releasedFor' can be const.
+bool EasyButton::releasedFor(uint32_t duration)
+                 ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:42:7: note: Technically the member function 'EasyButton::releasedFor' can be const.
+ bool releasedFor(uint32_t duration); // Returns true if the button state at the last read was released, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/wio/ex04_wio_ctrls/EasyButton.h:29:2: style: Class 'EasyButton' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: warning: Member variable 'EasyButton::_short_press_count' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: warning: Member variable 'EasyButton::_first_press_time' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: warning: Member variable 'EasyButton::_press_sequences' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: warning: Member variable 'EasyButton::_press_sequence_duration' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: warning: Member variable 'EasyButton::_held_threshold' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: warning: Member variable 'EasyButton::_was_btn_held' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: warning: Member variable 'EasyButton::_held_callback_called' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: warning: Member variable 'EasyButton::_current_state' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: warning: Member variable 'EasyButton::_last_state' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: warning: Member variable 'EasyButton::_changed' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: warning: Member variable 'EasyButton::_time' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: warning: Member variable 'EasyButton::_last_change' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: warning: Member variable 'EasyButton::mPressedCallback' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: warning: Member variable 'EasyButton::mPressedForCallback' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: warning: Member variable 'EasyButton::mPressedSequenceCallback' is not initialized in the constructor. [uninitMemberVar]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+examples/wio/ex27_wio_alpha/EasyButton.h:37:7: style:inconclusive: Technically the member function 'EasyButton::isPressed' can be const. [functionConst]
+ bool isPressed();    // Returns true if the button state was pressed at the last read.
+      ^
+examples/wio/ex27_wio_alpha/EasyButton.cpp:36:18: note: Technically the member function 'EasyButton::isPressed' can be const.
+bool EasyButton::isPressed()
+                 ^
+examples/wio/ex27_wio_alpha/EasyButton.h:37:7: note: Technically the member function 'EasyButton::isPressed' can be const.
+ bool isPressed();    // Returns true if the button state was pressed at the last read.
+      ^
+examples/wio/ex27_wio_alpha/EasyButton.h:38:7: style:inconclusive: Technically the member function 'EasyButton::isReleased' can be const. [functionConst]
+ bool isReleased();    // Returns true if the button state was released at the last read.
+      ^
+examples/wio/ex27_wio_alpha/EasyButton.cpp:41:18: note: Technically the member function 'EasyButton::isReleased' can be const.
+bool EasyButton::isReleased()
+                 ^
+examples/wio/ex27_wio_alpha/EasyButton.h:38:7: note: Technically the member function 'EasyButton::isReleased' can be const.
+ bool isReleased();    // Returns true if the button state was released at the last read.
+      ^
+examples/wio/ex27_wio_alpha/EasyButton.h:39:7: style:inconclusive: Technically the member function 'EasyButton::wasPressed' can be const. [functionConst]
+ bool wasPressed();    // Returns true if the button state at the last read was pressed.
+      ^
+examples/wio/ex27_wio_alpha/EasyButton.cpp:46:18: note: Technically the member function 'EasyButton::wasPressed' can be const.
+bool EasyButton::wasPressed()
+                 ^
+examples/wio/ex27_wio_alpha/EasyButton.h:39:7: note: Technically the member function 'EasyButton::wasPressed' can be const.
+ bool wasPressed();    // Returns true if the button state at the last read was pressed.
+      ^
+examples/wio/ex27_wio_alpha/EasyButton.h:40:7: style:inconclusive: Technically the member function 'EasyButton::wasReleased' can be const. [functionConst]
+ bool wasReleased();    // Returns true if the button state at the last read was released.
+      ^
+examples/wio/ex27_wio_alpha/EasyButton.cpp:51:18: note: Technically the member function 'EasyButton::wasReleased' can be const.
+bool EasyButton::wasReleased()
+                 ^
+examples/wio/ex27_wio_alpha/EasyButton.h:40:7: note: Technically the member function 'EasyButton::wasReleased' can be const.
+ bool wasReleased();    // Returns true if the button state at the last read was released.
+      ^
+examples/wio/ex27_wio_alpha/EasyButton.h:41:7: style:inconclusive: Technically the member function 'EasyButton::pressedFor' can be const. [functionConst]
+ bool pressedFor(uint32_t duration);  // Returns true if the button state at the last read was pressed, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/wio/ex27_wio_alpha/EasyButton.cpp:56:18: note: Technically the member function 'EasyButton::pressedFor' can be const.
+bool EasyButton::pressedFor(uint32_t duration)
+                 ^
+examples/wio/ex27_wio_alpha/EasyButton.h:41:7: note: Technically the member function 'EasyButton::pressedFor' can be const.
+ bool pressedFor(uint32_t duration);  // Returns true if the button state at the last read was pressed, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/wio/ex27_wio_alpha/EasyButton.h:42:7: style:inconclusive: Technically the member function 'EasyButton::releasedFor' can be const. [functionConst]
+ bool releasedFor(uint32_t duration); // Returns true if the button state at the last read was released, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/wio/ex27_wio_alpha/EasyButton.cpp:61:18: note: Technically the member function 'EasyButton::releasedFor' can be const.
+bool EasyButton::releasedFor(uint32_t duration)
+                 ^
+examples/wio/ex27_wio_alpha/EasyButton.h:42:7: note: Technically the member function 'EasyButton::releasedFor' can be const.
+ bool releasedFor(uint32_t duration); // Returns true if the button state at the last read was released, and has been in that state for at least the given number of milliseconds.
+      ^
+examples/wio/ex27_wio_alpha/EasyButton.h:29:2: style: Class 'EasyButton' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+ EasyButton(uint8_t pin, uint32_t dbTime = 35, bool puEnable = true, bool invert = true) : _pin(pin), _db_time(dbTime), _pu_enabled(puEnable), _invert(invert) {}
+ ^
+src/GUIslice.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 87 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/GUIslice.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/GUIslice_drv_adagfx.cpp:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 187 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/GUIslice_drv_m5stack.cpp:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 43 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/GUIslice_drv_sdl.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 39 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/GUIslice_drv_tft_espi.cpp:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 99 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/GUIslice_drv_utft.cpp:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 54 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/GUIslice_th.h:21:8: style:inconclusive: Technically the member function 'THPoint::operator==' can be const. [functionConst]
+  bool operator==(THPoint);
+       ^
+src/GUIslice_th.cpp:24:15: note: Technically the member function 'THPoint::operator==' can be const.
+bool THPoint::operator==(THPoint p1) {
+              ^
+src/GUIslice_th.h:21:8: note: Technically the member function 'THPoint::operator==' can be const.
+  bool operator==(THPoint);
+       ^
+src/GUIslice_th.h:22:8: style:inconclusive: Technically the member function 'THPoint::operator!=' can be const. [functionConst]
+  bool operator!=(THPoint);
+       ^
+src/GUIslice_th.cpp:28:15: note: Technically the member function 'THPoint::operator!=' can be const.
+bool THPoint::operator!=(THPoint p1) {
+              ^
+src/GUIslice_th.h:22:8: note: Technically the member function 'THPoint::operator!=' can be const.
+  bool operator!=(THPoint);
+       ^
+src/GUIslice_th.cpp:18:27: style:inconclusive: Function 'THPoint' argument 1 names different: declaration 'x' definition 'x0'. [funcArgNamesDifferent]
+THPoint::THPoint(uint16_t x0, uint16_t y0, uint16_t z0) {
+                          ^
+src/GUIslice_th.h:19:20: note: Function 'THPoint' argument 1 names different: declaration 'x' definition 'x0'.
+  THPoint(uint16_t x, uint16_t y, uint16_t z);
+                   ^
+src/GUIslice_th.cpp:18:27: note: Function 'THPoint' argument 1 names different: declaration 'x' definition 'x0'.
+THPoint::THPoint(uint16_t x0, uint16_t y0, uint16_t z0) {
+                          ^
+src/GUIslice_th.cpp:18:40: style:inconclusive: Function 'THPoint' argument 2 names different: declaration 'y' definition 'y0'. [funcArgNamesDifferent]
+THPoint::THPoint(uint16_t x0, uint16_t y0, uint16_t z0) {
+                                       ^
+src/GUIslice_th.h:19:32: note: Function 'THPoint' argument 2 names different: declaration 'y' definition 'y0'.
+  THPoint(uint16_t x, uint16_t y, uint16_t z);
+                               ^
+src/GUIslice_th.cpp:18:40: note: Function 'THPoint' argument 2 names different: declaration 'y' definition 'y0'.
+THPoint::THPoint(uint16_t x0, uint16_t y0, uint16_t z0) {
+                                       ^
+src/GUIslice_th.cpp:18:53: style:inconclusive: Function 'THPoint' argument 3 names different: declaration 'z' definition 'z0'. [funcArgNamesDifferent]
+THPoint::THPoint(uint16_t x0, uint16_t y0, uint16_t z0) {
+                                                    ^
+src/GUIslice_th.h:19:44: note: Function 'THPoint' argument 3 names different: declaration 'z' definition 'z0'.
+  THPoint(uint16_t x, uint16_t y, uint16_t z);
+                                           ^
+src/GUIslice_th.cpp:18:53: note: Function 'THPoint' argument 3 names different: declaration 'z' definition 'z0'.
+THPoint::THPoint(uint16_t x0, uint16_t y0, uint16_t z0) {
+                                                    ^
+src/GUIslice_th.cpp:42:44: style:inconclusive: Function 'setCalibration' argument 1 names different: declaration 'ts_xMin' definition '_ts_xMin'. [funcArgNamesDifferent]
+void TouchHandler::setCalibration(uint16_t _ts_xMin, uint16_t _ts_xMax, uint16_t _ts_yMin, uint16_t _ts_yMax)
+                                           ^
+src/GUIslice_th.h:37:32: note: Function 'setCalibration' argument 1 names different: declaration 'ts_xMin' definition '_ts_xMin'.
+  void setCalibration(uint16_t ts_xMin, uint16_t ts_xMax, uint16_t ts_yMin, uint16_t ts_yMax);
+                               ^
+src/GUIslice_th.cpp:42:44: note: Function 'setCalibration' argument 1 names different: declaration 'ts_xMin' definition '_ts_xMin'.
+void TouchHandler::setCalibration(uint16_t _ts_xMin, uint16_t _ts_xMax, uint16_t _ts_yMin, uint16_t _ts_yMax)
+                                           ^
+src/GUIslice_th.cpp:42:63: style:inconclusive: Function 'setCalibration' argument 2 names different: declaration 'ts_xMax' definition '_ts_xMax'. [funcArgNamesDifferent]
+void TouchHandler::setCalibration(uint16_t _ts_xMin, uint16_t _ts_xMax, uint16_t _ts_yMin, uint16_t _ts_yMax)
+                                                              ^
+src/GUIslice_th.h:37:50: note: Function 'setCalibration' argument 2 names different: declaration 'ts_xMax' definition '_ts_xMax'.
+  void setCalibration(uint16_t ts_xMin, uint16_t ts_xMax, uint16_t ts_yMin, uint16_t ts_yMax);
+                                                 ^
+src/GUIslice_th.cpp:42:63: note: Function 'setCalibration' argument 2 names different: declaration 'ts_xMax' definition '_ts_xMax'.
+void TouchHandler::setCalibration(uint16_t _ts_xMin, uint16_t _ts_xMax, uint16_t _ts_yMin, uint16_t _ts_yMax)
+                                                              ^
+src/GUIslice_th.cpp:42:82: style:inconclusive: Function 'setCalibration' argument 3 names different: declaration 'ts_yMin' definition '_ts_yMin'. [funcArgNamesDifferent]
+void TouchHandler::setCalibration(uint16_t _ts_xMin, uint16_t _ts_xMax, uint16_t _ts_yMin, uint16_t _ts_yMax)
+                                                                                 ^
+src/GUIslice_th.h:37:68: note: Function 'setCalibration' argument 3 names different: declaration 'ts_yMin' definition '_ts_yMin'.
+  void setCalibration(uint16_t ts_xMin, uint16_t ts_xMax, uint16_t ts_yMin, uint16_t ts_yMax);
+                                                                   ^
+src/GUIslice_th.cpp:42:82: note: Function 'setCalibration' argument 3 names different: declaration 'ts_yMin' definition '_ts_yMin'.
+void TouchHandler::setCalibration(uint16_t _ts_xMin, uint16_t _ts_xMax, uint16_t _ts_yMin, uint16_t _ts_yMax)
+                                                                                 ^
+src/GUIslice_th.cpp:42:101: style:inconclusive: Function 'setCalibration' argument 4 names different: declaration 'ts_yMax' definition '_ts_yMax'. [funcArgNamesDifferent]
+void TouchHandler::setCalibration(uint16_t _ts_xMin, uint16_t _ts_xMax, uint16_t _ts_yMin, uint16_t _ts_yMax)
+                                                                                                    ^
+src/GUIslice_th.h:37:86: note: Function 'setCalibration' argument 4 names different: declaration 'ts_yMax' definition '_ts_yMax'.
+  void setCalibration(uint16_t ts_xMin, uint16_t ts_xMax, uint16_t ts_yMin, uint16_t ts_yMax);
+                                                                                     ^
+src/GUIslice_th.cpp:42:101: note: Function 'setCalibration' argument 4 names different: declaration 'ts_yMax' definition '_ts_yMax'.
+void TouchHandler::setCalibration(uint16_t _ts_xMin, uint16_t _ts_xMax, uint16_t _ts_yMin, uint16_t _ts_yMax)
+                                                                                                    ^
+src/GUIslice_th.cpp:107:42: style:inconclusive: Function 'gslc_InitTouchHandler' argument 1 names different: declaration 'pTHO' definition 'pTH'. [funcArgNamesDifferent]
+void gslc_InitTouchHandler(TouchHandler *pTH) {
+                                         ^
+src/GUIslice_th.h:67:42: note: Function 'gslc_InitTouchHandler' argument 1 names different: declaration 'pTHO' definition 'pTH'.
+void gslc_InitTouchHandler(TouchHandler *pTHO);
+                                         ^
+src/GUIslice_th.cpp:107:42: note: Function 'gslc_InitTouchHandler' argument 1 names different: declaration 'pTHO' definition 'pTH'.
+void gslc_InitTouchHandler(TouchHandler *pTH) {
+                                         ^
+src/elem/XCheckbox.c:153:24: warning: Either the condition 'pGui==NULL' is redundant or there is possible null pointer dereference: pGui. [nullPointerRedundantCheck]
+  gslc_tsPage* pPage = pGui->apPageStack[GSLC_STACK_CUR];
+                       ^
+src/elem/XCheckbox.c:158:12: note: Assuming that condition 'pGui==NULL' is not redundant
+  if (pGui == NULL) {
+           ^
+src/elem/XCheckbox.c:153:24: note: Null pointer dereference
+  gslc_tsPage* pPage = pGui->apPageStack[GSLC_STACK_CUR];
+                       ^
+src/elem/XCheckbox.c:146:23: style: The scope of the variable 'nCurType' can be reduced. [variableScope]
+  int16_t             nCurType;
+                      ^
+src/elem/XCheckbox.c:242:20: style: Variable 'nGroup' is assigned a value that is never used. [unreadVariable]
+    int16_t nGroup = GSLC_GROUP_ID_NONE;
+                   ^
+src/elem/XGauge.c:388:15: error: Uninitialized variable: nGaugeX0 [uninitvar]
+  nGaugeX0 = (nGaugeX0 < nElemX0)? nElemX0 : nGaugeX0;
+              ^
+src/elem/XGauge.c:388:15: error: Uninitialized variable: nGaugeX0 [uninitvar]
+  nGaugeX0 = (nGaugeX0 < nElemX0)? nElemX0 : nGaugeX0;
+              ^
+src/elem/XGauge.c:337:12: note: Assuming condition is false
+  if (nRng == 0) {
+           ^
+src/elem/XGauge.c:362:9: note: Assuming condition is true
+    if (bVert) {
+        ^
+src/elem/XGauge.c:378:7: note: Assuming condition is false
+  if (bVert) {
+      ^
+src/elem/XGauge.c:388:15: note: Uninitialized variable: nGaugeX0
+  nGaugeX0 = (nGaugeX0 < nElemX0)? nElemX0 : nGaugeX0;
+              ^
+src/elem/XGauge.c:334:16: style: Variable 'nTmp' is assigned a value that is never used. [unreadVariable]
+  int16_t nTmp = 0;
+               ^
+src/elem/XGauge.c:542:13: style: The scope of the variable 'nInd' can be reduced. [variableScope]
+  int16_t   nInd;
+            ^
+src/elem/XGauge.c:667:16: style: Condition 'nSteps==0' is always false [knownConditionTrueFalse]
+    if (nSteps == 0) {
+               ^
+src/elem/XGauge.c:664:28: note: Assignment 'nSteps=10', assigned value is 10
+    uint16_t      nSteps = 10;
+                           ^
+src/elem/XGauge.c:667:16: note: Condition 'nSteps==0' is always false
+    if (nSteps == 0) {
+               ^
+src/elem/XGauge.c:600:13: style: The scope of the variable 'nInd' can be reduced. [variableScope]
+  int16_t   nInd;
+            ^
+src/elem/XGauge.c:608:13: style: The scope of the variable 'nHeight' can be reduced. [variableScope]
+  uint16_t  nHeight;
+            ^
+src/elem/XGauge.c:609:13: style: The scope of the variable 'nHeightTmp' can be reduced. [variableScope]
+  int32_t   nHeightTmp;
+            ^
+src/elem/XGlowball.c:152:11: style: The scope of the variable 'nAng64' can be reduced. [variableScope]
+  int16_t nAng64;
+          ^
+src/elem/XGraph.c:305:21: style: The scope of the variable 'nDataVal' can be reduced. [variableScope]
+  int16_t           nDataVal;
+                    ^
+src/elem/XGraph.c:306:21: style: The scope of the variable 'nCurX' can be reduced. [variableScope]
+  uint16_t          nCurX = 0;
+                    ^
+src/elem/XGraph.c:307:21: style: The scope of the variable 'nPixX' can be reduced. [variableScope]
+  uint16_t          nPixX,nPixY,nPixYBase,nPixYOffset;
+                    ^
+src/elem/XGraph.c:307:27: style: The scope of the variable 'nPixY' can be reduced. [variableScope]
+  uint16_t          nPixX,nPixY,nPixYBase,nPixYOffset;
+                          ^
+src/elem/XGraph.c:307:33: style: The scope of the variable 'nPixYBase' can be reduced. [variableScope]
+  uint16_t          nPixX,nPixY,nPixYBase,nPixYOffset;
+                                ^
+src/elem/XGraph.c:307:43: style: The scope of the variable 'nPixYOffset' can be reduced. [variableScope]
+  uint16_t          nPixX,nPixY,nPixYBase,nPixYOffset;
+                                          ^
+src/elem/XGraph.c:306:27: style: Variable 'nCurX' is assigned a value that is never used. [unreadVariable]
+  uint16_t          nCurX = 0;
+                          ^
+src/elem/XKeyPad.c:1205:23: style:inconclusive: Boolean expression 'bRedraw' is used in bitwise operation. Did you mean '||'? [bitwiseOnBoolean]
+    bRedraw = bRedraw | gslc_XKeyPadTxtAddCh(pKeyPad,pStr[nStrPos],nInsertPos++);
+                      ^
+src/elem/XKeyPad.c:593:17: style: The scope of the variable 'nType' can be reduced. [variableScope]
+  uint8_t       nType;
+                ^
+src/elem/XKeyPad.c:659:17: style: The scope of the variable 'nId' can be reduced. [variableScope]
+  uint8_t       nId;
+                ^
+src/elem/XKeyPad.c:663:17: style: The scope of the variable 'nType' can be reduced. [variableScope]
+  uint8_t       nType;
+                ^
+src/elem/XKeyPad.c:1338:4: warning: Unused variable value 'nDispPosCursor' [constStatement]
+   nDispPosCursor; // Avoid unused warning
+   ^
+src/elem/XKeyPad.c:673:13: style: Variable 'bDone' is assigned a value that is never used. [unreadVariable]
+      bDone = true;
+            ^
+src/elem/XKeyPad.c:926:11: style: Variable 'nId' is assigned a value that is never used. [unreadVariable]
+      nId = gslc_XKeyPadMapEvent(pGui, pKeyPad, nRelX, nRelY, &nInd);
+          ^
+src/elem/XKeyPad.c:851:11: style: Unused variable: nMaxRows [unusedVariable]
+  uint8_t nMaxRows,nMaxCols;
+          ^
+src/elem/XKeyPad.c:851:20: style: Unused variable: nMaxCols [unusedVariable]
+  uint8_t nMaxRows,nMaxCols;
+                   ^
+src/elem/XKeyPad.c:852:10: style: Unused variable: nIndFirst [unusedVariable]
+  int8_t nIndFirst,nIndLast;
+         ^
+src/elem/XKeyPad.c:852:20: style: Unused variable: nIndLast [unusedVariable]
+  int8_t nIndFirst,nIndLast;
+                   ^
+src/elem/XKeyPad.c:1425:35: portability: Undefined behaviour, pointer arithmetic 'acDispStr+nDispPosCursor' is out of bounds. [pointerOutOfBounds]
+    gslc_StrCopy(pStrBuf,acDispStr+nDispPosCursor,nTxtLen+1);
+                                  ^
+src/elem/XKeyPad.c:1260:28: note: Assignment 'nDispPosCursor=-1', assigned value is -1
+  int8_t nDispPosCursor = -1; // Default to no cursor visible
+                           ^
+src/elem/XKeyPad.c:1269:16: note: Assuming condition is false
+  if (nDispPos < nDispMax) {
+               ^
+src/elem/XKeyPad.c:1425:35: note: Pointer arithmetic overflow
+    gslc_StrCopy(pStrBuf,acDispStr+nDispPosCursor,nTxtLen+1);
+                                  ^
+src/elem/XKeyPad.c:1443:14: style: Variable 'nTxtPosX' is assigned a value that is never used. [unreadVariable]
+    nTxtPosX += nTxtSzW;
+             ^
+src/elem/XKeyPad_Num.c:164:7: style: The if condition is the same as the previous if condition [duplicateCondition]
+  if (DEBUG_XKEYPAD) GSLC_DEBUG_PRINT("  ID=%d Ind=%d\n",nId,nInd);
+      ^
+src/elem/XKeyPad_Num.c:161:7: note: First condition
+  if (DEBUG_XKEYPAD) GSLC_DEBUG_PRINT("XKeyPadLabelGet_Num: pKeyPad=%d nId=%d pKeys=%d nInd=%d\n",
+      ^
+src/elem/XKeyPad_Num.c:164:7: note: Second condition
+  if (DEBUG_XKEYPAD) GSLC_DEBUG_PRINT("  ID=%d Ind=%d\n",nId,nInd);
+      ^
+src/elem/XListbox.c:515:27: style: Variable 'pXData->nItemCurSelLast' is reassigned a value before the old one has been used. [redundantAssignment]
+  pXData->nItemCurSelLast = XLISTBOX_SEL_NONE;
+                          ^
+src/elem/XListbox.c:500:27: note: pXData->nItemCurSelLast is assigned
+  pXData->nItemCurSelLast = XLISTBOX_SEL_NONE;
+                          ^
+src/elem/XListbox.c:515:27: note: pXData->nItemCurSelLast is overwritten
+  pXData->nItemCurSelLast = XLISTBOX_SEL_NONE;
+                          ^
+src/elem/XListbox.c:344:11: style: The scope of the variable 'ch' can be reduced. [variableScope]
+  uint8_t ch;
+          ^
+src/elem/XListbox.c:395:11: style: The scope of the variable 'ch' can be reduced. [variableScope]
+  uint8_t ch;
+          ^
+src/elem/XListbox.c:610:17: style: The scope of the variable 'nItemX' can be reduced. [variableScope]
+  int16_t       nItemX, nItemY;
+                ^
+src/elem/XListbox.c:610:25: style: The scope of the variable 'nItemY' can be reduced. [variableScope]
+  int16_t       nItemX, nItemY;
+                        ^
+src/elem/XListbox.c:611:17: style: The scope of the variable 'nItemW' can be reduced. [variableScope]
+  int16_t       nItemW, nItemH;
+                ^
+src/elem/XListbox.c:611:25: style: The scope of the variable 'nItemH' can be reduced. [variableScope]
+  int16_t       nItemW, nItemH;
+                        ^
+src/elem/XListbox.c:612:17: style: The scope of the variable 'bItemSel' can be reduced. [variableScope]
+  bool          bItemSel;
+                ^
+src/elem/XListbox.c:629:11: style: The scope of the variable 'nItemInd' can be reduced. [variableScope]
+  int16_t nItemInd;
+          ^
+src/elem/XListbox.c:745:8: style: The scope of the variable 'bSelInItem' can be reduced. [variableScope]
+  bool bSelInItem = true;
+       ^
+src/elem/XListbox.c:842:15: style: The scope of the variable 'nItemR' can be reduced. [variableScope]
+      int16_t nItemR, nItemC;
+              ^
+src/elem/XListbox.c:842:23: style: The scope of the variable 'nItemC' can be reduced. [variableScope]
+      int16_t nItemR, nItemC;
+                      ^
+src/elem/XProgress.c:307:15: error: Uninitialized variable: nGaugeX0 [uninitvar]
+  nGaugeX0 = (nGaugeX0 < nElemX0)? nElemX0 : nGaugeX0;
+              ^
+src/elem/XProgress.c:307:15: error: Uninitialized variable: nGaugeX0 [uninitvar]
+  nGaugeX0 = (nGaugeX0 < nElemX0)? nElemX0 : nGaugeX0;
+              ^
+src/elem/XProgress.c:256:12: note: Assuming condition is false
+  if (nRng == 0) {
+           ^
+src/elem/XProgress.c:281:9: note: Assuming condition is true
+    if (bVert) {
+        ^
+src/elem/XProgress.c:297:7: note: Assuming condition is false
+  if (bVert) {
+      ^
+src/elem/XProgress.c:307:15: note: Uninitialized variable: nGaugeX0
+  nGaugeX0 = (nGaugeX0 < nElemX0)? nElemX0 : nGaugeX0;
+              ^
+src/elem/XProgress.c:253:16: style: Variable 'nTmp' is assigned a value that is never used. [unreadVariable]
+  int16_t nTmp = 0;
+               ^
+src/elem/XRadial.c:328:13: style: The scope of the variable 'nInd' can be reduced. [variableScope]
+  int16_t   nInd;
+            ^
+src/elem/XRamp.c:271:16: style: Condition 'nSteps==0' is always false [knownConditionTrueFalse]
+    if (nSteps == 0) {
+               ^
+src/elem/XRamp.c:268:28: note: Assignment 'nSteps=10', assigned value is 10
+    uint16_t      nSteps = 10;
+                           ^
+src/elem/XRamp.c:271:16: note: Condition 'nSteps==0' is always false
+    if (nSteps == 0) {
+               ^
+src/elem/XRamp.c:204:13: style: The scope of the variable 'nInd' can be reduced. [variableScope]
+  int16_t   nInd;
+            ^
+src/elem/XRamp.c:212:13: style: The scope of the variable 'nHeight' can be reduced. [variableScope]
+  uint16_t  nHeight;
+            ^
+src/elem/XRamp.c:213:13: style: The scope of the variable 'nHeightTmp' can be reduced. [variableScope]
+  int32_t   nHeightTmp;
+            ^
+src/elem/XRingGauge.c:345:3: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+  nRange = (nRange == 0) ? 1 : nRange; // Guard against div/0
+  ^
+src/elem/XRingGauge.c:167:22: style:inconclusive: Boolean expression 'bGlowEn' is used in bitwise operation. Did you mean '&&'? [bitwiseOnBoolean]
+  bGlowNow = bGlowEn & bGlowing; // Element is currently glowing
+                     ^
+src/elem/XRingGauge.c:345:10: style: Variable 'nRange' is assigned a value that is never used. [unreadVariable]
+  nRange = (nRange == 0) ? 1 : nRange; // Guard against div/0
+         ^
+src/elem/XSeekbar.c:393:15: style: The scope of the variable 'nTickOffset' can be reduced. [variableScope]
+    int16_t   nTickOffset;
+              ^
+src/elem/XSeekbar.c:441:11: style: The scope of the variable 'nPosRng' can be reduced. [variableScope]
+  int16_t nPosRng;
+          ^
+src/elem/XSeekbar.c:442:11: style: The scope of the variable 'nPos' can be reduced. [variableScope]
+  int16_t nPos = 0;
+          ^
+src/elem/XSeekbar.c:313:13: style: Variable 'rThumb.w' is assigned a value that is never used. [unreadVariable]
+  rThumb.w  = 2*nThumbSz;
+            ^
+src/elem/XSeekbar.c:314:13: style: Variable 'rThumb.h' is assigned a value that is never used. [unreadVariable]
+  rThumb.h  = 2*nThumbSz;
+            ^
+src/elem/XSlider.c:320:15: style: The scope of the variable 'nTickOffset' can be reduced. [variableScope]
+    int16_t   nTickOffset;
+              ^
+src/elem/XSlider.c:416:11: style: The scope of the variable 'nPosRng' can be reduced. [variableScope]
+  int16_t nPosRng;
+          ^
+src/elem/XSlider.c:417:11: style: The scope of the variable 'nPos' can be reduced. [variableScope]
+  int16_t nPos = 0;
+          ^
+src/elem/XSlider.c:495:23: style: Variable 'nTickSz' is assigned a value that is never used. [unreadVariable]
+      int32_t nTickSz = 0;
+                      ^
+src/elem/XSpinner.c:327:15: style: The if condition is the same as the previous if condition [duplicateCondition]
+  if (eRedraw == GSLC_REDRAW_FULL) {
+              ^
+src/elem/XSpinner.c:322:15: note: First condition
+  if (eRedraw == GSLC_REDRAW_FULL) {
+              ^
+src/elem/XSpinner.c:327:15: note: Second condition
+  if (eRedraw == GSLC_REDRAW_FULL) {
+              ^
+src/elem/XSpinner.c:99:8: style: Unused variable: acTxtNum [unusedVariable]
+  char acTxtNum[XSPINNER_STR_LEN];
+       ^
+src/elem/XTemplate.c:168:23: style:inconclusive: Boolean expression 'bGlowEn' is used in bitwise operation. Did you mean '&&'? [bitwiseOnBoolean]
+  bGlowNow  = bGlowEn & bGlowing; // Element is currently glowing
+                      ^
+src/elem/XTextbox.c:406:19: style: The scope of the variable 'chNext' can be reduced. [variableScope]
+  unsigned char   chNext;
+                  ^
+src/elem/XTextbox.c:479:29: style: Variable 'nBufPos' is assigned a value that is never used. [unreadVariable]
+  uint16_t          nBufPos = 0;
+                            ^
+src/elem/XTextbox.c:566:27: style: Variable 'nCurX' is assigned a value that is never used. [unreadVariable]
+  uint8_t           nCurX = 0;
+                          ^
+src/elem/XTextbox.c:570:19: style: Variable 'nOutCol' is assigned a value that is never used. [unreadVariable]
+  uint8_t nOutCol = 0;
+                  ^
+src/elem/XTextbox.c:573:20: style: Variable 'bRowDone' is assigned a value that is never used. [unreadVariable]
+  bool    bRowDone = false;
+                   ^
+src/elem/XToggleImgbtn.c:368:24: warning: Either the condition 'pGui==NULL' is redundant or there is possible null pointer dereference: pGui. [nullPointerRedundantCheck]
+  gslc_tsPage* pPage = pGui->apPageStack[GSLC_STACK_CUR];
+                       ^
+src/elem/XToggleImgbtn.c:373:12: note: Assuming that condition 'pGui==NULL' is not redundant
+  if (pGui == NULL) {
+           ^
+src/elem/XToggleImgbtn.c:368:24: note: Null pointer dereference
+  gslc_tsPage* pPage = pGui->apPageStack[GSLC_STACK_CUR];
+                       ^
+src/elem/XToggleImgbtn.c:188:23: style: The scope of the variable 'nCurId' can be reduced. [variableScope]
+    int16_t           nCurId;
+                      ^
+src/elem/XToggleImgbtn.c:191:23: style: The scope of the variable 'nCurGroup' can be reduced. [variableScope]
+    int16_t           nCurGroup;
+                      ^
+src/elem/XToggleImgbtn.c:361:23: style: The scope of the variable 'nCurType' can be reduced. [variableScope]
+  int16_t             nCurType;
+                      ^
+src/elem/XTogglebtn.c:434:24: warning: Either the condition 'pGui==NULL' is redundant or there is possible null pointer dereference: pGui. [nullPointerRedundantCheck]
+  gslc_tsPage* pPage = pGui->apPageStack[GSLC_STACK_CUR];
+                       ^
+src/elem/XTogglebtn.c:439:12: note: Assuming that condition 'pGui==NULL' is not redundant
+  if (pGui == NULL) {
+           ^
+src/elem/XTogglebtn.c:434:24: note: Null pointer dereference
+  gslc_tsPage* pPage = pGui->apPageStack[GSLC_STACK_CUR];
+                       ^
+src/elem/XTogglebtn.c:189:23: style: The scope of the variable 'nCurId' can be reduced. [variableScope]
+    int16_t           nCurId;
+                      ^
+src/elem/XTogglebtn.c:192:23: style: The scope of the variable 'nCurGroup' can be reduced. [variableScope]
+    int16_t           nCurGroup;
+                      ^
+src/elem/XTogglebtn.c:427:23: style: The scope of the variable 'nCurType' can be reduced. [variableScope]
+  int16_t             nCurType;
+                      ^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:21:1: error: The one definition rule is violated, different classes/structs have the same name 'EasyButton' [ctuOneDefinitionRuleViolation]
+class EasyButton
+^
+examples/arduino/ex27_ard_alpha_pin/EasyButton.h:21:1: note: The one definition rule is violated, different classes/structs have the same name 'EasyButton'
+class EasyButton
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:21:1: note: The one definition rule is violated, different classes/structs have the same name 'EasyButton'
+class EasyButton
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:21:1: error: The one definition rule is violated, different classes/structs have the same name 'EasyButton' [ctuOneDefinitionRuleViolation]
+class EasyButton
+^
+examples/arduino/ex40_ard_ctrls_small_pin/EasyButton.h:21:1: note: The one definition rule is violated, different classes/structs have the same name 'EasyButton'
+class EasyButton
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:21:1: note: The one definition rule is violated, different classes/structs have the same name 'EasyButton'
+class EasyButton
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:21:1: error: The one definition rule is violated, different classes/structs have the same name 'EasyButton' [ctuOneDefinitionRuleViolation]
+class EasyButton
+^
+examples/wio/ex04_wio_ctrls/EasyButton.h:21:1: note: The one definition rule is violated, different classes/structs have the same name 'EasyButton'
+class EasyButton
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:21:1: note: The one definition rule is violated, different classes/structs have the same name 'EasyButton'
+class EasyButton
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:21:1: error: The one definition rule is violated, different classes/structs have the same name 'EasyButton' [ctuOneDefinitionRuleViolation]
+class EasyButton
+^
+examples/wio/ex27_wio_alpha/EasyButton.h:21:1: note: The one definition rule is violated, different classes/structs have the same name 'EasyButton'
+class EasyButton
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.h:21:1: note: The one definition rule is violated, different classes/structs have the same name 'EasyButton'
+class EasyButton
+^
+src/GUIslice_th.cpp:95:0: style: The function 'getPoint' is never used. [unusedFunction]
+
+^
+src/elem/XCheckbox.c:359:0: style: The function 'gslc_ElemXCheckboxToggleState' is never used. [unusedFunction]
+
+^
+src/elem/XGauge.c:86:0: style: The function 'gslc_ElemXGaugeCreate' is never used. [unusedFunction]
+
+^
+src/elem/XGauge.c:228:0: style: The function 'gslc_ElemXGaugeSetFlip' is never used. [unusedFunction]
+
+^
+src/elem/XGauge.c:157:0: style: The function 'gslc_ElemXGaugeSetIndicator' is never used. [unusedFunction]
+
+^
+src/elem/XGauge.c:140:0: style: The function 'gslc_ElemXGaugeSetStyle' is never used. [unusedFunction]
+
+^
+src/elem/XGauge.c:178:0: style: The function 'gslc_ElemXGaugeSetTicks' is never used. [unusedFunction]
+
+^
+src/elem/XGauge.c:198:0: style: The function 'gslc_ElemXGaugeUpdate' is never used. [unusedFunction]
+
+^
+src/elem/XGlowball.c:251:0: style: The function 'gslc_ElemXGlowballSetQuality' is never used. [unusedFunction]
+
+^
+src/elem/XGraph.c:242:0: style: The function 'gslc_ElemXGraphReset' is never used. [unusedFunction]
+
+^
+src/elem/XGraph.c:176:0: style: The function 'gslc_ElemXGraphSetRange' is never used. [unusedFunction]
+
+^
+src/elem/XGraph.c:155:0: style: The function 'gslc_ElemXGraphSetStyle' is never used. [unusedFunction]
+
+^
+src/elem/XKeyPad.c:1217:0: style: The function 'gslc_ElemXKeyPadCfgSetButtonSpace' is never used. [unusedFunction]
+
+^
+src/elem/XKeyPad.c:1211:0: style: The function 'gslc_ElemXKeyPadCfgSetButtonSz' is never used. [unusedFunction]
+
+^
+src/elem/XKeyPad_Num.c:434:0: style: The function 'gslc_ElemXKeyPadCfgSetFloatEn_Num' is never used. [unusedFunction]
+
+^
+src/elem/XKeyPad.c:1223:0: style: The function 'gslc_ElemXKeyPadCfgSetRoundEn' is never used. [unusedFunction]
+
+^
+src/elem/XKeyPad_Num.c:439:0: style: The function 'gslc_ElemXKeyPadCfgSetSignEn_Num' is never used. [unusedFunction]
+
+^
+src/elem/XKeyPad_Num.c:412:0: style: The function 'gslc_ElemXKeyPadCreate_Num' is never used. [unusedFunction]
+
+^
+src/elem/XKeyPad.c:1540:0: style: The function 'gslc_ElemXKeyPadInputGet' is never used. [unusedFunction]
+
+^
+src/elem/XKeyPad.c:487:0: style: The function 'gslc_ElemXKeyPadValGet' is never used. [unusedFunction]
+
+^
+src/elem/XListbox.c:371:0: style: The function 'gslc_ElemXListboxDeleteItemAt' is never used. [unusedFunction]
+
+^
+src/elem/XListbox.c:464:0: style: The function 'gslc_ElemXListboxGetItemCnt' is never used. [unusedFunction]
+
+^
+src/elem/XListbox.c:297:0: style: The function 'gslc_ElemXListboxInsertItemAt' is never used. [unusedFunction]
+
+^
+src/elem/XListbox.c:223:0: style: The function 'gslc_ElemXListboxItemsSetGap' is never used. [unusedFunction]
+
+^
+src/elem/XListbox.c:236:0: style: The function 'gslc_ElemXListboxReset' is never used. [unusedFunction]
+
+^
+src/elem/XListbox.c:194:0: style: The function 'gslc_ElemXListboxSetMargin' is never used. [unusedFunction]
+
+^
+src/elem/XProgress.c:154:0: style: The function 'gslc_ElemXProgressSetFlip' is never used. [unusedFunction]
+
+^
+src/elem/XProgress.c:173:0: style: The function 'gslc_ElemXProgressSetGaugeCol' is never used. [unusedFunction]
+
+^
+src/elem/XRadial.c:199:0: style: The function 'gslc_ElemXRadialSetFlip' is never used. [unusedFunction]
+
+^
+src/elem/XRingGauge.c:336:0: style: The function 'gslc_ElemXRingGaugeSetAngleRange' is never used. [unusedFunction]
+
+^
+src/elem/XRingGauge.c:364:0: style: The function 'gslc_ElemXRingGaugeSetColorActiveFlat' is never used. [unusedFunction]
+
+^
+src/elem/XRingGauge.c:377:0: style: The function 'gslc_ElemXRingGaugeSetColorActiveGradient' is never used. [unusedFunction]
+
+^
+src/elem/XRingGauge.c:391:0: style: The function 'gslc_ElemXRingGaugeSetColorInactive' is never used. [unusedFunction]
+
+^
+src/elem/XRingGauge.c:404:0: style: The function 'gslc_ElemXRingGaugeSetQuality' is never used. [unusedFunction]
+
+^
+src/elem/XRingGauge.c:353:0: style: The function 'gslc_ElemXRingGaugeSetThickness' is never used. [unusedFunction]
+
+^
+src/elem/XSeekbar.c:79:0: style: The function 'gslc_ElemXSeekbarCreate' is never used. [unusedFunction]
+
+^
+src/elem/XSeekbar.c:171:0: style: The function 'gslc_ElemXSeekbarGetPos' is never used. [unusedFunction]
+
+^
+src/elem/XSeekbar.c:218:0: style: The function 'gslc_ElemXSeekbarSetPosFunc' is never used. [unusedFunction]
+
+^
+src/elem/XSeekbar.c:147:0: style: The function 'gslc_ElemXSeekbarSetStyle' is never used. [unusedFunction]
+
+^
+src/elem/XSelNum.c:84:0: style: The function 'gslc_ElemXSelNumCreate' is never used. [unusedFunction]
+
+^
+src/elem/XSelNum.c:268:0: style: The function 'gslc_ElemXSelNumGetCounter' is never used. [unusedFunction]
+
+^
+src/elem/XSlider.c:159:0: style: The function 'gslc_ElemXSliderSetSnapEn' is never used. [unusedFunction]
+
+^
+src/elem/XSpinner.c:86:0: style: The function 'gslc_ElemXSpinnerCreate' is never used. [unusedFunction]
+
+^
+src/elem/XSpinner.c:357:0: style: The function 'gslc_ElemXSpinnerGetCounter' is never used. [unusedFunction]
+
+^
+src/elem/XSpinner.c:178:0: style: The function 'gslc_ElemXSpinnerSetChars' is never used. [unusedFunction]
+
+^
+src/elem/XTemplate.c:77:0: style: The function 'gslc_ElemXTemplateCreate' is never used. [unusedFunction]
+
+^
+src/elem/XTextbox.c:171:0: style: The function 'gslc_ElemXTextboxReset' is never used. [unusedFunction]
+
+^
+src/elem/XToggleImgbtn.c:78:0: style: The function 'gslc_ElemXToggleImgbtnCreate' is never used. [unusedFunction]
+
+^
+src/elem/XTogglebtn.c:79:0: style: The function 'gslc_ElemXTogglebtnCreate' is never used. [unusedFunction]
+
+^
+src/GUIslice_th.cpp:107:0: style: The function 'gslc_InitTouchHandler' is never used. [unusedFunction]
+
+^
+src/GUIslice_th.cpp:115:0: style: The function 'gslc_getTouchHandler' is never used. [unusedFunction]
+
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:36:0: style: The function 'isPressed' is never used. [unusedFunction]
+
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:41:0: style: The function 'isReleased' is never used. [unusedFunction]
+
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:20:0: style: The function 'onPressed' is never used. [unusedFunction]
+
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:24:0: style: The function 'onPressedFor' is never used. [unusedFunction]
+
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:29:0: style: The function 'onSequence' is never used. [unusedFunction]
+
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:56:0: style: The function 'pressedFor' is never used. [unusedFunction]
+
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:66:0: style: The function 'read' is never used. [unusedFunction]
+
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:61:0: style: The function 'releasedFor' is never used. [unusedFunction]
+
+^
+src/GUIslice_th.cpp:57:0: style: The function 'scale' is never used. [unusedFunction]
+
+^
+src/GUIslice_th.cpp:42:0: style: The function 'setCalibration' is never used. [unusedFunction]
+
+^
+src/GUIslice_th.cpp:36:0: style: The function 'setSize' is never used. [unusedFunction]
+
+^
+src/GUIslice_th.cpp:50:0: style: The function 'setSwapFlip' is never used. [unusedFunction]
+
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:46:0: style: The function 'wasPressed' is never used. [unusedFunction]
+
+^
+examples/arduino/ex04_ard_ctrls_pin/EasyButton.cpp:51:0: style: The function 'wasReleased' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
